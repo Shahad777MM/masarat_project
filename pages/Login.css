@@ -1,0 +1,98 @@
+.container {
+  background-image: url(pexels-photo-5.jpeg);
+  background-size: cover;
+  padding: 200px 700px;
+  height: 100vh;
+  
+}
+.container .all{
+  border-radius: 10px;
+  box-shadow: 0px 20px 15px 15px rgba(0, 0, 0, 0.1);
+  height: 490px;
+  width: 550px;
+  
+}
+
+.container h2 {
+  font-size: 60px;
+  padding: 6px;
+  margin: 10px;
+}
+
+.container form {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  
+}
+
+.container input[type="email"],
+.container input[type="password"] {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height:50px;
+  padding: 15px;
+  outline: none;
+  margin: 10px;
+  
+}
+
+.container input[type="email"]:focus,
+.container input[type="password"]:focus {
+  border-color: #4a4a4a;
+}
+
+.container .flex {
+  display: flex;
+  align-items: center;
+}
+
+.container .flex input[type="password"] {
+  margin-right:-23px ;
+}
+
+
+.container svg {
+  width: 1.125rem;
+  height: 1.094rem;
+  margin-left: -1.75rem;
+  fill: none;
+  stroke: #949090;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1;
+}
+
+.container input[type="submit"] {
+  background-color: rgb(187, 132, 232);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 8px;
+  border: none;
+  border-radius: 7px;
+  text-transform: uppercase;
+  margin: 10px ;
+}
+
+.container input[type="submit"]:hover {
+  background-color:rgb(212, 5, 253);
+}
+
+.container p{
+  color: #666666;
+  font-size: 17px;
+  text-decoration: underline;
+  align-self: center;
+  margin-top: 20px;
+ 
+}
+
+
+.container p:hover {
+  color: #4a4a4a;
+}
+  
+  
